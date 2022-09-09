@@ -4,426 +4,492 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>complete responsive anime website design</title>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custom css file link -->
     <link rel="stylesheet" href="style.css">
-    <title>KryptoLeaf</title>
+
 </head>
 <body>
-    <!-- Navbar section -->
-    <navbar id="Navbar">
-        <img src="./image/logo.png" alt="" id="KryptoLeaf">
-        <ul>
-            <li><a href="#">Home</a> </li>
-            <li><a href="#">About</a> </li>
-            <div id="categories">
-                <li><a href="#">Categories <i class="fas fa-caret-down"></i></a></li>
-                <div id="drop-down-box">
-                    <a href="#">Shonen</a>
-                    <a href="#">Shojo</a>
-                    <a href="#">Seinen</a>
-                    <a href="#">Josei</a>
-                    <a href="#">Kodomomuke</a>
-                </div>
-            </div>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div id="other-opt">
-            <div class="search">
-                <input type="search" name="search" id="search" placeholder="Search...">
-                <i class="fas fa-search"></i>
-            </div>
-            <button id="signIn">Sign in</button>
+    
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-infinity"></i>KryptoLeaf.</a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="#anime">anime</a>
+            <a href="#action">action</a>
+            <a href="#child">kids</a>
+            <a href="#family">family</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
         </div>
-        <img src="./image/menu.png" alt="Menu Png" id="Menu-Btn">
-    </navbar>
-    <nav id="Other-Navbar">
-        <ul>
-            <li><a href="#">Home</a> </li>
-            <li><a href="#">About</a> </li>
-            <div id="categories">
-                <li><a href="#">Categories <i class="fas fa-caret-down"></i></a></li>
-                <div id="drop-down-box">
-                    <a href="#">Shonen</a>
-                    <a href="#">Shojo</a>
-                    <a href="#">Seinen</a>
-                    <a href="#">Josei</a>
-                    <a href="#">Kodomomuke</a>
+    </header>
+
+<!-- home section -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(img/home-img-1.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3>Kakegurui</h3>
+                        <p>High roller Yumeko Jabami plans to clean house at Hyakkaou Private<br>
+                        Academy, a school where students are evaluated solely on their<br>
+                        gambling skills.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
                 </div>
             </div>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="Othersearch" style="margin: auto;">
-            <input type="search" name="search" id="Othersearch" placeholder="Search...">
-            <i class="fas fa-search"></i>
+
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(img/home-img-3.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3>DEATH NOTE</h3>
+                        <p>When a Japanese high schooler comes into possession of a mystical<br> 
+                        notebook, he finds he has the power to kill anybody whose name he<br>
+                        enters in it.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(img/home-img-4.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3>One-Punch Man</h3>
+                        <p>The most powerful superhero in the world can kill anyone with one<br> 
+                        blow. But nothing can challenge him, so he struggles with ennui and<br> 
+                        depression</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(img/home-img-2.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3>Naruto</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns<br> 
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-<!-- Slide section -->
-    <div class="slides-box">
-        <div class="slider">
-            <div class="slides">
-                <div class="slide first" id="first">
-                    <!-- <img src="./image/AOT banner.jpg" alt=""> -->
+    </div>
+</section>
+
+<!-- anime section start -->
+<section class="anime" id="anime">
+    <h1 class="heading">Anime</h1>
+    <div class="swiper anime-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-1.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Naruto</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
                 </div>
-                <div class="slide second">
-                    <!-- <img src="./image/fate long banner.png" alt=""> -->
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-2.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>One-Punch Man</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
                 </div>
-                <div class="slide third">
-                    <!-- <img src="./image/yourname banner.jpg" alt=""> -->
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-3.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>DEATH NOTE</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
                 </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-4.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Black Clover</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-5.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Jujutsu Kaisen</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-6.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Haikyu!!</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-7.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Kuroko's Basketball</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-8.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>My Hero Academia</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-9.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Dr. Stone</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-10.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Tokyo Revengers</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-11.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Sword Art Online</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-12.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>KENGAN ASHURA</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="download.html" class="btn">Download</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!-- action section -->
+
+<section class="action" id="action">
+    <h1 class="heading">Action Movies</h1>
+    <div class="swiper action-slider">
+        <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-1.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Kuroko's Basketball</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-2.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>AHIRU NO SORA</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-3.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Seraph of the End</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-4.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Kuroko's  Last Game</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/acion-5.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Fate/Zero</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/acion-6.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Hellsing Ultimate</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-7.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>DEVILS'LINE</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-8.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Legend of Exorcism</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+</div>
+</div>
+</section>
+
+<!-- child section -->
+
+<section class="kids" id="kids">
+    <h1 class="heading">kids Movies</h1>
+    <div class="swiper child-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-1.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Beyblade</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-2.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Beyblade Burst Turbo</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-3.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Bakugan: Battle Planet</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-4.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Sonic X</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-5.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Yowamushi Pedal</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-6.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Shimajiro: A Adventure</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-7.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Go Astro Boy Go!</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- family section -->
+
+<section class="family" id="family">
+    <h1 class="heading">Family Movies</h1>
+    <div class="swiper family-slider">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-1.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>STAND BY ME Doraemon 2</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-2.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Pokémon the Movie</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-3.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Hows Moving Castle</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-4.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Spirited Away</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-5.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>My Neighbor Totoro</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-6.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Kikis Delivery Service</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-7.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Ponyo</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-8.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Arrietty</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
             </div>
         </div>
     </div>
     </div>
-    <!-- ALL SHOWS  -->
-    <div id="AllBanners">
-        <div id="primaryMainContainer">
-            <div id="contentBanners">
-                <!-- For Trending Now  -->
-                    <div id="MainContainer">
-                            <div id="Heading-box">
-                                <div class="heading">Trending Now</div>
-                                <div class="viewAll">view all
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                            <div id="Banners-container">
-                                <div class="Image-Name">
-                                    <img src="./image/fate.jpg" alt="Fate stye night">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Fate Stay Night:Unlimited blade works
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/future diary.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Future diary
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/DAB.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Date a bullet
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/erased.jpeg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Erased
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/MHA.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        My Hero Acadmia
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/death note.jfif" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Death Note
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                    <!-- For Trending Now  -->
-
-                    <!-- Popular Shows  -->
-                    <div id="MainContainer">
-                        <!-- <div id="insideMainContainer"> -->
-                            <div id="Heading-box">
-                                <div class="heading">Popular Shows</div>
-                                <div class="viewAll">view all
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-
-                            <div id="Banners-container">
-                                <div class="Image-Name">
-                                    <img src="./image/classroom.jfif" alt="Fate stye night">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Classroom of the Elite
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/human lost.jfif" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Human Lost
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/your lie in april.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Your lie in April
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/yourname.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        YourName
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/mugen train.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Demon Slayer:Mugen Train
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/AOT.jfif" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Attack on titan:Season 4
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                    <!-- Recently added  -->
-                    <div id="MainContainer">
-                        <!-- <div id="insideMainContainer"> -->
-                            <div id="Heading-box">
-                                <div class="heading">Recently added</div>
-                                <div class="viewAll">view all
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                            <div id="Banners-container">
-                                <div class="Image-Name">
-                                    <img src="./image/I want to eat you pancreas.jfif" alt="Fate stye night">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        I want to eat your pancreas
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/ne zha.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Ne Zha
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/MHA movie.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        My Hero Acadmia:Ultimate heros
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/sprirted away movie.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Spirited away
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/AOT movie.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Attack on titan:Chronicle
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./image/yourname.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        YourName
-                                    </div>
-                                </div>
-                            </div>
-                        <!-- </div> -->
-                    </div>
-            </div>
-            <!-- Recently added -->
-
-            <!-- Latest News -->
-            <div id="LatestNews">
-                <div id="LatestNewsSection">
-                    <div id="insideLatestNews">
-
-                        <div id="Heading-box2">
-                            <div class="headingInNews">Latest News</div>
-                            <div class="viewAllInNews">view all
-                                <i class="fas fa-arrow-right"></i>
-                            </div>
-                        </div>
-        
-                    <div id="LatestNewses">
-                        <div id="ImageOfNews" style="margin: 0;">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./image/boruto wide banner.jfif" alt="">
-                            <span class="name">
-                                Boruto : Next generation
-                            </span>
-                        </div>
-                        <div id="ImageOfNews">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./image/erased wide banner.jpeg" alt="">
-                            <span class="name">
-                                Erased
-                            </span>
-                        </div>
-                        <div id="ImageOfNews">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./image/MHA banner.jfif" alt="">
-                            <span class="name">
-                                My Hero Acadmia : The Movie
-                            </span>
-                        </div>
-                        <div id="ImageOfNews">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./image/mugen train wide banner.jpg" alt="">
-                            <span class="name">
-                                demon slayer:Mugen train
-                            </span>
-                        </div>
-                        <div id="ImageOfNews">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./image/classroom wide banner.jfif" alt="">
-                            <span class="name">
-                                Classroom of the Elite
-                            </span>
-                        </div>
-                        <div id="ImageOfNews">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./image/death note wide banner.jfif" alt="">
-                            <span class="name">
-                                Death Note
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Latest News -->
-        </div>
-    </div>
-    </div>
-<!-- ALL SHOWS  -->
+</section>
+<!-- copyright -->
+<div class="copyright container">
+    <a href="#" class="logo"><i class="fas fa-infinity"></i>KryptoLeaf.</a>
+    <p>&#169; KryptoLeaf. All rights reserved.</p>
+</div>
+<!-- link swiper file -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custome js file link -->
+    <script src="main.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
