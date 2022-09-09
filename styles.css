@@ -209,26 +209,25 @@ height:168px;
 
 }
 
-.child{
+.kids{
     padding:5rem;
 }
 
-.child .box{
+.kids .box{
     width:299px;
     height:168px;
 }
-.child .content h3{
+.kids .content h3{
     font-size: 1.7rem;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
 }
-.child .content P{
+.kid .content P{
     font-size: 1.2rem;
     color:#fff;
     text-decoration: none;
 }
-
 
 .family{
     padding:5rem;
