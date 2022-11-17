@@ -1,8 +1,8 @@
 ##### kryptoLeaf
 anime streaming website.
-we are here to serve and make sure you do not have any glitches when watching your favourite anime.
+we are here to serve and make sure you do not have any glitches or buffering when watching your favourite anime.
 
-#####Shantel Risper
+#####Venus Maria Luganji Ayago
 
  
  
@@ -57,8 +57,8 @@ Below you will find our contact information:
 
  
 
-Call / Message; +254 111837285
+Call / Message; +254 123456789
 
  
 
-E-mail; parischax@gmail.com 
+E-mail; venuszuchie7@gmail.com
