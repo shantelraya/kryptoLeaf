@@ -2,7 +2,7 @@
 anime streaming website.
 we are here to serve and make sure you do not have any glitches or buffering when watching your favourite anime.
 
-#####Venus Maria Luganji Ayago
+#####Shantel Risper
 
  
  
@@ -57,8 +57,8 @@ Below you will find our contact information:
 
  
 
-Call / Message; +254 123456789
+Call / Message; +254 11183785
 
  
 
-E-mail; venuszuchie7@gmail.com
+E-mail; parischax@gmail.com
